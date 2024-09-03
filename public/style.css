@@ -1,0 +1,462 @@
+body,
+html,
+#app,
+#app>div {
+    height: 100%;
+    margin: 0;
+    background-image: url("assets/background_space.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    overflow: scroll;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.nav-bar {
+    /* flex */
+    display: flex;
+
+    /* background */
+    /* background-color: indigo; */
+    background-color: #0f3608;
+
+    /* spacing */
+}
+
+.logo {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.nav-item {
+    /* font */
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+
+    /* spacing */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nav-item-active {
+    background-color: #1b610f;
+}
+
+.nav-item:hover {
+    /* background-color: blueviolet; */
+    background-color: #1b610f;
+}
+
+.tut-nav-bar {
+    /* flex */
+    display: flex;
+
+    /* background */
+    /* background-color: blueviolet; */
+    background-color: #1b610f
+}
+
+.tut-nav-item {
+    /* font */
+    color: white;
+    text-decoration: none;
+    font-size: small;
+
+    /* spacing */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.tut-nav-item-active {
+    background-color: #248214;
+}
+
+.tut-nav-item-inactive {
+    background-color: #1b610f;
+}
+
+.tut-nav-item:hover {
+    background-color: #248214
+}
+
+.tut-bg {
+    /* font */
+    color: black;
+
+    /* background */
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 15px 15px gray;
+
+    /* spacing */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.tut-head-main {
+    /* font */
+    font-size: xx-large;
+    font-weight: bolder;
+
+    /* background */
+    background-color: silver;
+
+    /* spacing */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.tut-head {
+    /* font */
+    font-size: x-large;
+    font-weight: bolder;
+
+    /* background */
+    background-color: silver;
+
+    /* spacing */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 3%;
+}
+
+.tut-subhead {
+    /* font */
+    font-size: large;
+    font-weight: bold;
+
+    /* background */
+    border-bottom-style: solid;
+
+    /* spacing */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 15%;
+    padding-bottom: 5px;
+}
+
+.tut-body {
+    /* font */
+    font-size: 15px;
+    line-height: 1.5;
+
+    /* spacing */
+    margin-bottom: 15px;
+    padding-left: 15%;
+}
+
+.tut-hint {
+    /* font */
+    font-size: small;
+
+    /* background */
+    background-color: lightgray;
+
+    /* spacing */
+    padding: 25px;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.next-prev-btns {
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+
+    /* spacing */
+    /* margin: 15px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.prev-btn {
+    /* flex */
+    align-self: flex-start;
+
+    /* font */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    /* background */
+    background-color: crimson;
+    border-radius: 15%;
+    border-color: darkred;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px 5px gray;
+
+    /* spacing */
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.prev-btn:hover {
+    background-color: tomato;
+}
+
+.next-btn {
+    /* flex */
+    align-self: flex-end;
+
+    /* font */
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+
+    /* background */
+    background-color: green;
+    border-radius: 15%;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px 5px gray;
+
+    /* spacing */
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.next-btn:hover {
+    background-color: darkseagreen;
+}
+
+.section-list {
+    /* font */
+
+    /* background */
+    border-top-style: solid;
+    border-bottom-style: solid;
+
+    /* spacing */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+.section-head {
+    /* font */
+    font-weight: bold;
+    font-size: large;
+
+    /* spacing */
+    margin-top: 5px;
+}
+
+.section-item {
+    /* font */
+    font-size: medium;
+
+    /* spacing */
+    margin-bottom: 10px;
+}
+
+.tut-def {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+
+    /* font */
+
+    /* background */
+
+    /* spacing */
+}
+
+.tut-def-item {
+    /* flex */
+
+    /* font */
+
+    /* background */
+
+    /* spacing */
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 7%;
+}
+
+.tut-def-head {
+    /* flex */
+
+    /* font */
+    font-weight: bold;
+    font-size: large;
+
+    /* background */
+    border-bottom: black;
+    border-bottom-style: solid;
+
+    /* spacing */
+}
+
+.tut-def-subhead {
+    /* flex */
+
+    /* font */
+    font-style: italic;
+
+    /* background */
+
+    /* spacing */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tut-def-body {
+    /* flex */
+
+    /* font */
+
+    /* background */
+
+    /* spacing */
+}
+
+.tut-asset-wrapper {
+    /* flex */
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+
+    /* font */
+    /* text-align: center; */
+
+    /* background */
+    background-color: lightgray;
+
+    /* spacing */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.tut-asset {
+
+    /* font */
+
+    /* background */
+
+    /* spacing */
+    max-height: 200px;
+    margin-left: 15%;
+}
+
+.tut-caption {
+    /* flex */
+    flex-basis: 50%;
+
+    /* font */
+    font-size: small;
+    text-align: left;
+
+    /* background */
+    background-color: lightgray;
+
+    /* spacing */
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.tut-code {
+    /* font */
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    white-space: pre-wrap;
+
+    /* background */
+    background-color: black;
+
+    /* spacing */
+    margin-left: 15%;
+    /* margin-right: 15%; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+
+}
+
+.tut-code-comment {
+    /* font */
+    color: chartreuse;
+    font-size: small;
+
+    /* background */
+
+    /* spacing */
+
+}
+
+.tut-code-inline {
+    /* font */
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    /* background */
+    background-color: black;
+
+    /* spacing */
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.tut-summary {
+    /* spacing */
+}
+
+.tut-summary-head {
+    /* font */
+    font-size: large;
+    font-weight: bold;
+
+    /* background */
+    background-color: darkgray;
+    /* border-bottom: black;
+    border-bottom-style: solid; */
+
+    margin-left: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.tut-summary-body {
+    /* font */
+
+    /* background */
+    background-color: darkgray;
+
+    margin-left: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
